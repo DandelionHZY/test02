@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
+}
+
+.album {
+    width: 900px;
+    height: 738px;
+    background-color: pink;
+    padding-top: 42px;
+    border-radius: 44px;
+    box-shadow: 7px 7px 16px 1px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 100px auto;
+}
+
+.photo {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: pink;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.photo ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400%;
+}
+
+.photo li {
+    float: left;
+}
+
+.info {
+    width: 800px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(255, 157, 174);
+    margin: 15px auto 0;
+    text-align: center;
+}
+
+.info h4 {
+    font-weight: normal;
+    font-size: 20px;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.67);
+}
+
+.buto01,
+.buto02 {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 85px;
+}
+
+.buto01 {
+    background-color: orange;
+    border: 1px solid orange;
+    margin-right: 20px;
+}
+
+.buto02 {
+    background-color: pink;
+    border: 1px solid pink;
+}
